@@ -1,6 +1,6 @@
 import requests
 
-
+city = input("What city do you need data about?: \n")
 def get_weather_openweathermap(city, api_key):
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     
@@ -31,4 +31,4 @@ def get_weather_openweathermap(city, api_key):
 
 # Example usage
 api_key = "a53cdae913a5e85c56ee542b33bedccd"  # Replace this with your real API key
-get_weather_openweathermap("Lagos", api_key)
+get_weather_openweathermap(city, api_key)
