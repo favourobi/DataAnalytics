@@ -1,5 +1,5 @@
-#This project job opportunities from realpython.github.io/fake-jobs/
-# I used requests to ==>send HTTP requests to websites ,BeautifulSoup for==>to parse and extract Data from HTML  and Pandas for ==>storing and saving data in CSV format
+#This project scrapes job opportunities from realpython.github.io/fake-jobs/
+# I used requests to ==>send HTTP requests to websites ,BeautifulSoup ==>to parse and extract Data from HTML  and Pandas for ==>storing and saving data in CSV format
 '''
 The pattern of this script goes thus:
 1. Send requests to the site
